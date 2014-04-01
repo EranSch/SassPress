@@ -11,7 +11,7 @@ I've been looking for a way to incorporate SASS and Autoprefixer into my WordPre
 4. Enjoy!
 
 ##My Worflow
-I generally work with a local copy of the site but use Sublime Text to sync changed files to a development server. Using Sublime and the SFTP plugin, I keep the `style.scss` file open along with `style.css` and have Sublime monitor the compiled css file to upload it upon any detected change. (Here's a little explanation of that process)[http://stackoverflow.com/a/21557820/2354352]
+I generally work with a local copy of the site but use Sublime Text to sync changed files to a development server. Using Sublime and the SFTP plugin, I keep the `style.scss` file open along with `style.css` and have Sublime monitor the compiled css file to upload it upon any detected change. Check out [this](http://stackoverflow.com/a/21557820/2354352) link for some short instruction on setting up Sublime/SFTP's monitoring.
 
 ##Considerations
 I'm still pretty new to Grunt so please let me konw if you have any suggestions on improving this process. 

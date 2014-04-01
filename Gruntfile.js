@@ -5,7 +5,8 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     meta: {
-      themePath: grunt.option('theme')
+      themePath: grunt.option('theme') || 
+        grunt.fail.fatal( 'You must include a theme path! [grunt --theme=/path/to/style.css]' )
     },
 
     sass: {

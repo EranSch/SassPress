@@ -1,5 +1,8 @@
 #SassPress
-I've been looking for a way to incorporate SASS and Autoprefixer into my WordPress development process for a little while now and I think I've finally started to work something comfortable out.
+I've been looking for a way to incorporate [SASS](http://sass-lang.com/) and [AutoPrefixer](https://github.com/ai/autoprefixer) into my WordPress development process for a little while now and I think I've finally started to work something comfortable out.
+
+##Purpose
+This task simply watches a `style.scss` file and recompiles it using the machine's local SASS binary upon any detected change. After the SCSS is compiled, the resulting file is passed though AutoPrefixer to automatically include all relevant vendor prefixes. Yay! 
 
 ##Usage
 1. First clone the repo to wherever you'd like. These can be run from anywhere, be it your project file or somewhere else..
